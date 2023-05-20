@@ -1,17 +1,18 @@
-a = 12
-b = 235
-c = 1341
+# boucle for
 
-rep1 = c / a
+riz = 1
 
-print("rep1 = c / a")
-print(c , " / " , a , " = " , rep1)
+for i in range(1, 65):
+    print("Case numéro " , i , ":" , riz)
+    riz *= 2
 
-rep2 = b - rep1
+# boucle while
 
-print("rep2 = b - rep1")
-print(b , "-" , rep1 , "=" , rep2)
+# riz = 1
+# i = 1
+# 
+# while i != 64 :
+#     print("Case numéro " , i , ":" , riz)
+#     riz *= 2
+#     i += 1
 
-rep3 = rep1 * rep2
-print("rep3 = rep1 * rep2")
-print(rep1 , "*" , rep2 , "=" , rep3)
